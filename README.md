@@ -1,10 +1,10 @@
-# pahappa-web-template
+# Clinton-web-template
 Template Project For Web using Spring 3 with JSF and primefaces 7
 
 ### Project Structure
 This project is a maven project with the following structure:
 ```
-pahappa-web-template [parent]
+Clinton-web-template [parent]
 ├── pom.xml [parent pom]
 ├── README.md
 ├── Backend [module]
@@ -12,8 +12,8 @@ pahappa-web-template [parent]
 │   ├── src
 │   │   ├── main
 │   │   │   ├── java
-│   │   │   │   └── org.pahappa.systems
-│   │   │   │       ├──core -> Contains base classes for the project using the Pahappa Framework
+│   │   │   │   └── org.clinton.systems
+│   │   │   │       ├──core -> Contains base classes for the project using the clinton Framework
 │   │   │   │       ├──utils -> A collection of utility classes
 │   │   │   │       ├──models // Define your project models here
 │   │   │   │       ├──services // Define your project services here
@@ -22,7 +22,7 @@ pahappa-web-template [parent]
 │   ├── src
 │   │   ├── main
 │   │   │   ├── java
-│   │   │   │   └── org.pahappa.systems
+│   │   │   │   └── org.clinton.systems
 │   │   │   │       ├──api -> Contains the REST API for the project, implement your API here
 │   │   │   │       │     ├──restresources -> Contains the REST resources for the project, implement your REST resources here e.g UserResource
 │   │   │   │       │     ├──dto -> Contains the DTOs for the project, implement your DTOs here e.g UserDTO
@@ -56,18 +56,18 @@ pahappa-web-template [parent]
 3. Modify the paren pom.xml to suite your project
 ```xml 
 
-    <groupId>org.pahappa.systems</groupId>
-    <artifactId>pahappa-web-template</artifactId>
+    <groupId>org.clinton.systems</groupId>
+    <artifactId>clinton-web-template</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>pahappa-web-template</name>
+    <name>clinton-web-template</name>
     <modules>
         <module>Backend</module>
         <module>Frontend</module>
     </modules>
 
     <properties>
-        <parent.name>pahappa-web-template</parent.name>
+        <parent.name>clinton-web-template</parent.name>
 <!--   ...other properties....-->
    </properties>
 ```
@@ -98,7 +98,7 @@ Modify the `url`, `username` and `password` properties to suite your database co
 
 ### Customization
 1. The application comes with the default California template.
-2. Change app name in the `Frontend/src/main/java/org/pahappa/systems/web/controllers/GenericController.java` file
+2. Change app name in the `Frontend/src/main/java/org/clinton/systems/web/controllers/GenericController.java` file
 ```java
     private final String APPLICATION_NAME = "APP NAME";
 ```
@@ -121,12 +121,12 @@ Note: This project is still under development. Feel free to contribute to the pr
 12. California Template v3.0.0
 
 
-### Pahappa Web-Utils
+### clinton Web-Utils
 ```xml
 
 <dependency>
-    <groupId>org.pahappa.systems</groupId>
-    <artifactId>pahappa-web-utils</artifactId>
+    <groupId>org.clinton.systems</groupId>
+    <artifactId>clinton-web-utils</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
 
@@ -135,12 +135,12 @@ Note: This project is still under development. Feel free to contribute to the pr
 
 ### Getting Help
 To report a specific problem or feature request, open a new issue on Github.
-For questions, suggestions, or anything else, email me at `Conrad@pahappa.com`
+For questions, suggestions, or anything else, email me at `clintonnahurura@gmail.com`
 
 ### Author
-Name: Katusiime Conrad
+Name: Nahurira Clinton
 <br>
-Email: Conrad@pahappa.com
+Email: clintonnahuruira@gmail.com
 
 
 

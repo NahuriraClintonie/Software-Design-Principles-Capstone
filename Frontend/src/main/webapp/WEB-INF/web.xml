@@ -33,7 +33,7 @@
 
     <filter>
         <filter-name>Character Encoding Filter</filter-name>
-        <filter-class>org.pahappa.systems.web.california.settings.CharacterEncodingFilter</filter-class>
+        <filter-class>org.clinton.systems.web.california.settings.CharacterEncodingFilter</filter-class>
     </filter>
 
     <filter-mapping>
@@ -70,7 +70,7 @@
         </init-param>
         <init-param>
             <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>org.pahappa.systems.api</param-value>
+            <param-value>org.clinton.systems.api</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
