@@ -4,7 +4,7 @@ Template Project For Web using Spring 3 with JSF and primefaces 7
 ### Project Structure
 This project is a maven project with the following structure:
 ```
-Clinton-web-template [parent]
+clinton-web-template [parent]
 ├── pom.xml [parent pom]
 ├── README.md
 ├── Backend [module]
@@ -13,7 +13,7 @@ Clinton-web-template [parent]
 │   │   ├── main
 │   │   │   ├── java
 │   │   │   │   └── org.clinton.systems
-│   │   │   │       ├──core -> Contains base classes for the project using the clinton Framework
+│   │   │   │       ├──core -> Contains base classes for the project using the Pahappa Framework
 │   │   │   │       ├──utils -> A collection of utility classes
 │   │   │   │       ├──models // Define your project models here
 │   │   │   │       ├──services // Define your project services here
@@ -67,7 +67,7 @@ Clinton-web-template [parent]
     </modules>
 
     <properties>
-        <parent.name>clinton-web-template</parent.name>
+        <parent.name>pahappa-web-template</parent.name>
 <!--   ...other properties....-->
    </properties>
 ```
@@ -98,7 +98,7 @@ Modify the `url`, `username` and `password` properties to suite your database co
 
 ### Customization
 1. The application comes with the default California template.
-2. Change app name in the `Frontend/src/main/java/org/clinton/systems/web/controllers/GenericController.java` file
+2. Change app name in the `Frontend/src/main/java/org/pahappa/systems/web/controllers/GenericController.java` file
 ```java
     private final String APPLICATION_NAME = "APP NAME";
 ```
@@ -121,7 +121,7 @@ Note: This project is still under development. Feel free to contribute to the pr
 12. California Template v3.0.0
 
 
-### clinton Web-Utils
+### Pahappa Web-Utils
 ```xml
 
 <dependency>
@@ -135,12 +135,11 @@ Note: This project is still under development. Feel free to contribute to the pr
 
 ### Getting Help
 To report a specific problem or feature request, open a new issue on Github.
-For questions, suggestions, or anything else, email me at `clintonnahurura@gmail.com`
+For questions, suggestions, or anything else, email me at `Conrad@pahappa.com`
 
 ### Author
-Name: Nahurira Clinton
+Name: Katusiime Conrad
 <br>
-Email: clintonnahuruira@gmail.com
-
+Email: Conrad@pahappa.com
 
 
