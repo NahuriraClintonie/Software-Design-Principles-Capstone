@@ -19,9 +19,9 @@ public class GenericController implements Serializable {
     /**
      *
      */
-    private final String APPLICATION_NAME = "APP NAME";
+    private final String APPLICATION_NAME = "Integrated Health Finance Management System";
     private static final long serialVersionUID = 1L;
-    private static final String systemName = "APP NAME";
+    private static final String systemName = "Integrated Health Finance Management System";
     private static final String searchPlaceHolder = "Enter text to search";
     private static final String dataEmptyMessage = "No records found";
     private static final String landingPageLabel = "";

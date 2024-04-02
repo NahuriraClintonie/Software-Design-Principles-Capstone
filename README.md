@@ -67,7 +67,7 @@ clinton-web-template [parent]
     </modules>
 
     <properties>
-        <parent.name>pahappa-web-template</parent.name>
+        <parent.name>clinton-web-template</parent.name>
 <!--   ...other properties....-->
    </properties>
 ```
@@ -98,7 +98,7 @@ Modify the `url`, `username` and `password` properties to suite your database co
 
 ### Customization
 1. The application comes with the default California template.
-2. Change app name in the `Frontend/src/main/java/org/pahappa/systems/web/controllers/GenericController.java` file
+2. Change app name in the `Frontend/src/main/java/org/clinton/systems/web/controllers/GenericController.java` file
 ```java
     private final String APPLICATION_NAME = "APP NAME";
 ```
@@ -121,7 +121,7 @@ Note: This project is still under development. Feel free to contribute to the pr
 12. California Template v3.0.0
 
 
-### Pahappa Web-Utils
+### Clinton Web-Utils
 ```xml
 
 <dependency>
@@ -135,11 +135,11 @@ Note: This project is still under development. Feel free to contribute to the pr
 
 ### Getting Help
 To report a specific problem or feature request, open a new issue on Github.
-For questions, suggestions, or anything else, email me at `Conrad@pahappa.com`
+For questions, suggestions, or anything else, email me at `clintonnahurira24@gmail.com`
 
 ### Author
-Name: Katusiime Conrad
+Name: Nahurira Clintonie
 <br>
-Email: Conrad@pahappa.com
+Email: clintonnahurira24@gmail.com
 
 
